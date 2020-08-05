@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/payment",
+            "lambdaFunction": "createPayment",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "payments",
+    "apiName": "payments",
+    "functionArns": [
+        {
+            "lambdaFunction": "createPayment"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-paymentapi-dev-150502-authRole",
+        "unAuthRoleName": "amplify-paymentapi-dev-150502-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "createPayment",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

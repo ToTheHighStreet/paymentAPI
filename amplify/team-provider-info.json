@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-paymentapi-dev-150502-authRole",
+            "UnauthRoleArn": "arn:aws:iam::584489548308:role/amplify-paymentapi-dev-150502-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::584489548308:role/amplify-paymentapi-dev-150502-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-paymentapi-dev-150502-deployment",
+            "UnauthRoleName": "amplify-paymentapi-dev-150502-unauthRole",
+            "StackName": "amplify-paymentapi-dev-150502",
+            "StackId": "arn:aws:cloudformation:eu-west-2:584489548308:stack/amplify-paymentapi-dev-150502/a908eb70-d724-11ea-84a4-060395953c4e",
+            "AmplifyAppId": "dlm1of6eei8zo"
+        }
+    }
+}
